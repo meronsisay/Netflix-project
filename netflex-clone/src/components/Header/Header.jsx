@@ -12,8 +12,8 @@ export default function Header() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#Nextflex">Netflex</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+          {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
             <Nav className="me-auto">
               <Nav.Link href="#Home">Home</Nav.Link>
               <Nav.Link href="#TVshows">TVShows</Nav.Link>
@@ -38,7 +38,7 @@ export default function Header() {
                 <ArrowDropDownIcon />
               </Nav.Link>
             </Nav>
-          </Navbar.Collapse>
+          {/* </Navbar.Collapse> */}
         </Container>
       </Navbar>
     </>
