@@ -3,6 +3,7 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import "./footer.css";
+
 const Footer = () => {
   return (
     <>
@@ -17,18 +18,17 @@ const Footer = () => {
           <YouTubeIcon />
         </span>
       </div>
-      <div className="d-md-flex justify-content-md-around mt-3 w-75">
+      <div className="d-md-flex justify-content-md-around mt-3 w-75 mx-auto">
         <ul className="text-decoration-none">
           <li>
             <a href="#">Audio description</a>
           </li>
           <li>
-            <a href="#">investor relation</a>
+            <a href="#">Investor Relations</a>
           </li>
           <li>
-            <a href="">Legal notice</a>
+            <a href="#">Legal Notice</a>
           </li>
-          <a href=""></a>
         </ul>
 
         <div>
@@ -40,23 +40,25 @@ const Footer = () => {
               <a href="#">Jobs</a>
             </li>
             <li>
-              <a href="#">cookie preferences</a>
+              <a href="#">Cookie Preferences</a>
             </li>
           </ul>
         </div>
+
         <div>
           <ul>
             <li>
-              <a href="#">Gift cards</a>
+              <a href="#">Gift Cards</a>
             </li>
             <li>
-              <a href="#">Terms of use</a>
+              <a href="#">Terms of Use</a>
             </li>
             <li>
-              <a href="#">cooperate Information</a>
+              <a href="#">Corporate Information</a>
             </li>
           </ul>
         </div>
+
         <div>
           <ul>
             <li>
@@ -72,7 +74,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="service">
-        <span>service code</span>
+        <span>Service Code</span>
       </div>
       <div className="copy">&copy; 1997-2024 Netflix, Inc.</div>
     </>
