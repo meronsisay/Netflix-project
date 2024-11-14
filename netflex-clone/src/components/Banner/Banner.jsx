@@ -32,7 +32,7 @@ const Banner = () => {
           backgroundImage: `url('https://image.tmdb.org/t/p/original${movie?.backdrop_path}')`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          height: "500px",
+          height: "550px",
         }}
       >
         {" "}
@@ -48,7 +48,7 @@ const Banner = () => {
             {truncate(movie?.overview, 150)}
           </div>
         </div>
-        <div className="bottom-fade"></div>
+        <div className="bottom_fade"></div>
       </div>
     </>
   );
