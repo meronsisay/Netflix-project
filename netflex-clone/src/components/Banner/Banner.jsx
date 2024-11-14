@@ -26,6 +26,7 @@ const Banner = () => {
   return (
     <>
       <div
+        className="banner"
         style={{
           backgroundSize: "cover",
           backgroundImage: `url('https://image.tmdb.org/t/p/original${movie?.backdrop_path}')`,
@@ -34,6 +35,7 @@ const Banner = () => {
           height: "500px",
         }}
       >
+        {" "}
         <div className="banner_container">
           <div className="title">
             {movie?.name || movie?.original_name || movie?.title}
@@ -45,8 +47,8 @@ const Banner = () => {
           <div className="banner_discription">
             {truncate(movie?.overview, 150)}
           </div>
-          <div className="fade"></div>
         </div>
+        <div className="bottom-fade"></div>
       </div>
     </>
   );
