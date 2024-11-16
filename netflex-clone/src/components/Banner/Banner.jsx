@@ -33,9 +33,9 @@ const Banner = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           height: "550px",
+          maxWidth:"100%"
         }}
       >
-        {" "}
         <div className="banner_container">
           <div className="title">
             {movie?.name || movie?.original_name || movie?.title}

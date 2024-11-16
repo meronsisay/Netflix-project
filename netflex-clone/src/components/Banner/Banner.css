@@ -1,12 +1,13 @@
 .banner{
   margin-bottom: -80px;
   color: white;
-  max-width: 100%;
+  margin-top: -10px;
   /* overflow-x: hidden; */
 }
 .banner_container {
   padding-top: 25vh;
-  margin-left: 30px;
+  margin-left: 3%;
+  width: 40%;
 }
 .banner_container div {
   padding: 5px 0;
@@ -18,34 +19,32 @@
 }
 
 .banner_bottons {
-  width: 300px;
+  width: 72%;
   display: flex;
   justify-content: space-between;
 }
 .banner_bottons button {
-  padding: 10px 44px;
+  padding: 1.5% 15%;
   border: none;
   font-weight: 700;
   cursor: pointer;
+  font-size: 95%;
 }
 .banner_bottons button:hover {
   background-color: #c6c6c6;
   color: black;
 }
 .list_button {
-  background-color: transparent;
+  background-color:#383838;
   color: white;
-}
-.banner_discription {
- width: 30%;
+
 }
 .bottom_fade {
-  height: 40vh;
+  height: 45vh;
   background-image: linear-gradient(
     180deg,
     transparent,
     rgba(37, 37, 37, 0.91),
     #111
   );
-
 }

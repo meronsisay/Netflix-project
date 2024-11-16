@@ -36,7 +36,7 @@ const Row = ({ title, fetchURL, isLarge }) => {
   const base_url = "https://image.tmdb.org/t/p/original";
   const opts = {
     height: "390",
-    width: "640",
+    width: "100%",
     playerVars: {
       autoplay: 1,
     },

@@ -1,0 +1,30 @@
+/* .navbar Container{
+  width: 100%;
+  position: fixed;
+  
+} */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 3vh;
+  transition: color 0.4s;
+  opacity: 0.8;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  opacity: 1;
+}
+/* .navbar.scrolled .nav-link {
+  color: #f1f1f1;
+} */
+
+.navbar-brand {
+  font-size: 3vh;
+}
+
+.navbar .nav-link svg {
+  font-size: 18px;
+}
+.navbar .container {
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}

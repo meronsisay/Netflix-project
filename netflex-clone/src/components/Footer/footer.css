@@ -16,7 +16,8 @@ ul li a:hover{
 .service{
    color: white;
    opacity: 0.8;
-   margin: 0 0 10px 235px;
+   margin-bottom: 10px;
+   margin-left: 18%;
     
 }
 .service span{
@@ -25,8 +26,11 @@ ul li a:hover{
 }
 .linked, .copy{
    color: white;
-   margin-left:220px;
+   margin-left:20%;
    opacity: 0.8;
+}
+.copy{
+   margin-bottom: 50px;
 }
 .linked span{
   margin-left: 20px;
